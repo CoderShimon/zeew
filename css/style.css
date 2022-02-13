@@ -1,0 +1,782 @@
+html{
+    width: 100%;
+    height: 100%;
+    }
+    @font-face {
+    font-family: Trueno;
+    src: url('fonts/TruenoRg.otf');
+    }
+    @font-face {
+    font-family: Trueno Light;
+    src: url('fonts/TruenoLt.otf');
+    }
+    @font-face {
+    font-family: Trueno SemiBold;
+    src: url('fonts/TruenoSBd.otf');
+    }
+    @font-face {
+    font-family: Trueno ExtraBold;
+    src: url('fonts/TruenoExBd.otf');
+    }
+    *{
+    font-family: Trueno;  
+    }
+    .main_container{
+    min-height: 100vh;
+    }
+    p,h1,h2,h3,h4,h5{
+    margin-bottom: 0 !important;
+    }
+    .w-100{
+    width: 100%;
+    }
+    .d-flex{
+    display: flex;
+    }
+    .ml-auto{
+        margin-left: auto;
+    }
+    .green_font{
+    color:#7ED320 !important ;
+    }
+    .grey_font{
+    color: #C2C2C7 !important;
+    }
+    .black_font{
+    color: black !important;
+    }
+    .white_font{
+        color: white !important;
+    }
+    .bg-light_theme{
+    background-color: #F7FDF2;
+    }
+    button{
+    border: none;
+    }
+    .padding-box{
+    padding-top: 35px;
+    padding-bottom: 4rem;
+    }
+    .mr-0{
+    margin-right: 0 !important;
+    }
+    a:hover{
+    color: #C2C2C7 !important;
+    cursor: pointer; 
+    }
+    /* navbar style */
+    .navbar{
+    box-shadow: 0px 4px 11px #00000017;
+    padding: 0 3rem;
+    }
+    .nav-item{
+    padding: 1rem 0.8rem;
+    font-size: 0.8rem;
+    }
+    .nav-link{
+    font-family: Trueno;
+    }
+    .navbar-nav{
+    width: 100%;
+    align-items: center;
+    }
+    .right_nav{
+    margin-left: auto;
+    }
+    .nav_button{
+    background-color: #7ED320;
+    color: white;
+    width: 149px;
+    height: 39px;
+    border-radius: 30px 0 30px 30px;
+    border: none;
+    font-size: 18px;
+    }
+    /* Home style */
+    .logo_img{
+    width: 117px;
+    height: 26px;
+    padding-right: 15px;
+    }
+    .banner_headtext{
+    font-family: Trueno ExtraBold;
+    font-size: 2.6rem;
+    }
+    .banner_tieuplogo{
+    display: flex;
+    }
+    .banner_tieuplogo img{
+    width: 80px;
+    margin: 25px 20px 25px 0;
+    }
+    .banner_secondarytext{
+    font-family: Trueno SemiBold;
+    font-size: 18px;
+    }
+    .banner_btn{
+    border-radius: 30px 0px 29px 30px;
+    background-color: #7ED320;
+    color: white;
+    width: 224px;
+    height: 59px;
+    font-size: 24px;
+    }
+    .banner_playbtn{
+    background-color: transparent;
+    margin-left: 45px;
+    }
+    .lighttext{
+    font-family: Trueno Light;
+    color: #5B5B5B;
+    font-size: 14px;
+    }
+    .voice_orderimg{
+    width: 209px;
+    position: relative;
+    margin-top: -296px;
+    float: right;
+    }
+    .home_heading{
+    font-size: 40px;
+    font-family: Trueno ExtraBold ;
+    line-height: 50px;
+    color: black;
+    }
+    .home_heading span{
+    font-family: Trueno ExtraBold ;  
+    }
+    .home_subheading{
+    font-family: Trueno Light;
+    font-size: 16px;
+    color: #5B5B5B;
+    padding: 20px 0
+    }
+    .bussiness_box{
+    padding: 25px;
+    border-radius: 22px;
+    transition: .5s;
+    }
+    .bussiness_box:hover{
+    box-shadow: 0px 0px 50px lightgrey;
+    transition: .5s;
+    }
+    .restaurent-img{
+    margin-bottom: 15px;
+    width: 80px;
+    height: 76px;
+    }
+    .bussiness_box-img{
+    padding: 20px;
+    border-radius: 22px;
+    width: 80px;
+    height: 76px;
+    margin-bottom: 15px;
+    }
+    .grocery{
+    background-color: #fff8ec;
+    }
+    .pharmacy{
+    background-color: #e4fefe;
+    }
+    .ecommerce{
+    background-color: #def2c8;
+    }
+    .localretail{
+    background-color: #f9f8ff;
+    }
+    .delivery{
+    background-color: #fff5f5;
+    }
+    .bussiness_box-head{
+    font-size: 22px;
+    font-family: Trueno SemiBold;
+    line-height: 27px;
+    }
+    .bussiness_box-content{
+    font-family: Trueno Light;
+    font-size: 16px;
+    color: #5B5B5B;
+    padding: 10px 0
+    }
+    .bussiness_box-footer{
+    font-size: 18px;
+    font-family: Trueno SemiBold;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .bussiness_arrow_img{
+    width: 30px !important;
+    margin-bottom: 0 !important;
+    height: auto !important;
+    }
+    .marketplace_img{
+    margin-top: 7rem;
+    }
+    .accordion {
+    margin-top: 40px;
+    }
+    .accordion .card {
+    border: 1px solid #7070701C;
+    margin-bottom: 20px;
+    padding: 20px 10px 20px 40px;
+    }
+    .accordion .card h2 {
+    background: url('../img/drop down icon.svg') no-repeat calc(100% - 10px) center;
+    background-size: 22px;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: Trueno SemiBold;
+    }
+    .accordion .card h2.collapsed {
+    background-image: url('../img/drop down icon.svg');
+    }
+    .accordion .card-body {
+    padding: 0;
+    }
+    .card_ul{
+    list-style-type: none;
+    font-size: 16px;
+    }
+    .card_ul li{
+    font-family: Trueno Light;
+    color: #5B5B5B;
+    padding: 7px 0;
+    }
+    .card_ul li:before {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 8px;
+    content: '';
+    border: 2px solid #7ED320;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    }
+    .full_feature_text{
+    font-family: Trueno SemiBold;
+    color: #7ED320;
+    font-size: 16px;
+    text-decoration: none;
+    float: right;
+    }
+    .buy_package_left_btn{
+    font-family: Trueno SemiBold;
+    height: 55px;
+    background-color: #7ED320;
+    color: white;
+    border-radius:30px 0 0 30px;
+    width: 70%;
+    font-size: 22px;
+    text-align: left;
+    padding-left: 40px;
+    }
+    .buy_package_right_btn{
+    font-family: Trueno SemiBold;
+    height: 55px;
+    background-color: #7ED320;
+    color: white;
+    border-radius:0 0 29px 0;
+    width: 30%; 
+    border-left: 1px solid grey;
+    font-size: 22px;
+    }
+    .premium_box{
+    padding: 50px;
+    }
+    .premium_feature_img{
+    padding: 20px;
+    border-radius: 22px;
+    width: 80px;
+    height: 76px;
+    margin-bottom: 15px;
+    background-color: #F6FDEE;
+    }
+    .unique_text{
+    font-size: 16px;
+    font-family: Trueno SemiBold;
+    }
+    .ordering_img{
+    padding: 15px;
+    border-radius: 50%;
+    width: 60px;
+    height: 56px;
+    background-color: #F6FDEE;  
+    margin-right: 30px;
+    }
+    .record{
+    background-color: #FFEE9B;
+    }
+    .list_icon{
+    background-color: #DAF9F9;
+    }
+    .write_icon{
+    background-color: #E5FFC8;
+    }
+    .req_icon{
+    background-color: #EFEBFE;
+    }
+    .cam_icon{
+    background-color: #FFE4E6;
+    }
+    .ordering_voiceorder_img{
+    position: relative;
+    margin-top: -16rem;
+    float: right;
+    }
+    .choose_row .col{
+    border: 1px solid lightgrey;
+    padding: 25px 0;
+    text-align: center;
+    }
+    .choose_row_text{
+    font-size: 22px;
+    font-family: Trueno SemiBold;
+    line-height: 27px;
+    }
+    /* screenshot tabs style */
+    .nav-tabs {
+    border-bottom: 1px solid grey;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    color: #C2C2C7;
+    }
+    .tabs_head{
+    font-size: 22px;
+    font-family: Trueno SemiBold;
+    color: #C2C2C7 !important;
+    margin-right:20px;
+    padding: 0 ;
+    margin-bottom: -3px !important;
+    transition: .2s;
+    background-color: transparent !important;
+    }
+    .tabs_head.active{
+    color: #7ED320 !important;
+    border: none !important;
+    border-bottom: 5px solid #7ED320 !important;  
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: .2s;
+    }
+    .slider_img{
+    width: 350px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 25px;
+    }
+    .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 15px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 1 !important;
+    color: #7ED320 !important;
+    -webkit-font-smoothing: antialiased;
+    transition: .2s;
+    }
+    .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    font-size: 20px !important;
+    transition: .2s;
+    }
+    .sliderapp_img{
+    width: 200px;
+    }
+    .check_list-text{
+    font-size: 20px;
+    font-family: Trueno SemiBold;
+    text-decoration: none;
+    width: 100%;  
+    display: block;
+    }
+    .board_img{
+    margin-top: -50px;
+    margin-bottom: -50px;
+    }
+    .count_box{
+    background-color: hsla(93, 73%, 97%, 1);
+    box-shadow: 0px 17px 27px hsla(0, 0%, 0%, 0.05);
+    padding: 30px;
+    text-align: left;
+    }
+    .count_box_numbers{
+    font-family: Trueno ExtraBold;
+    font-size: 38px;
+    color: black;
+    }
+    .count_box_details{
+    font-family: Trueno Light;
+    font-size: 16px;
+    color: hsla(0, 0%, 36%, 1);
+    }
+    .subscribe_cards{
+    margin: 4rem 0;
+    width: 100%;
+    }
+    .subs_card{
+    padding: 20px;  
+    }
+    .subs_card:hover{
+    box-shadow: 0px 33px 42px hsla(0, 0%, 0%, 0.09);
+    }
+    .subs_card img{
+    width:100%;
+    margin-bottom: 20px;
+    }
+    .subs_card_head{
+    font-family: Trueno SemiBold;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 15px;
+    }
+    .subs_card_content{
+    font-family: Trueno Light;
+    font-size: 16px;
+    color: hsla(0, 0%, 36%, 1); 
+    }
+    .slick-next {
+    right: -25px;
+    opacity: 1 !important;
+    width: 50px !important;
+    height: 50px !important;
+    box-shadow: 0px 6px 15px hsla(0, 0%, 0%, 0.05);
+    border-radius: 50%;
+    }
+    .slick-next:before {
+    content: '→';
+    background: #707070 !important;
+    border-radius: 50%;
+    }
+    .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 56px !important;
+    opacity: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+    .slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+    opacity: 1 !important;
+    }
+    /* testimonial */
+    .quote_img{
+    margin: 25px 0;
+    }
+    .ceo_name{
+    font-family: Trueno SemiBold;
+    font-size: 24px;
+    text-transform: uppercase;
+    }
+    .ceo_designation{
+    font-family: Trueno SemiBold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #707070;
+    opacity: 0.46;
+    }
+    .client_heading{
+    font-family: Trueno SemiBold;
+    font-size: 20px;
+    color: #C2C2C7; 
+    }
+    .client_row{
+    margin-top: 3rem !important;
+    }
+    .client_img{
+    width: 100%;
+    padding: 50px;
+    }
+    .backtotop{
+    float: right;
+    text-decoration: underline;
+    }
+    .are_you_ready-div{
+    background: #7ED320 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    }
+    .ready_head{
+    font-family: Trueno ExtraBold;
+    font-size: 37px; 
+    color: white;
+    line-height: 40px;
+    }
+    .ready_btn{
+    background-color: white;
+    color: #7ED320;
+    box-shadow: 0px 15px 38px #00000029;
+    border-radius: 30px 0 30px 30px;
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    }
+    /* footer style */
+    .footer_links{
+    color: #5B5B5B;
+    font-size: 15px;
+    font-family: Trueno Light;
+    padding-top: 20px;
+    text-decoration: none;
+    display: block;
+    }
+    .footer_link_head{
+    font-family: Trueno SemiBold;
+    font-size: 22px;
+    color: black; 
+    }
+    .footer_bottom_div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    align-items: center;
+    }
+    .follow_us{
+    font-family: Trueno SemiBold;
+    font-size: 16px;
+    color: black; 
+    margin-right: 10px; 
+    }
+    .social_icon{
+    margin: 0 10px;
+    }
+    .terms_condition-div{
+    justify-content: space-between;
+    display: flex;
+    width: 55%;
+    }
+    .terms_condition{
+    font-family: Trueno SemiBold;
+    font-size: 14px;
+    color: #7ED320;
+    text-decoration: none;
+    }
+    /* form style */
+    .form_container{
+    padding: 3rem 0;
+    }
+    .form-group{
+    padding-left: 0 !important;
+    margin-bottom: 20px !important;
+    }
+    .form-group label{
+    font-size: 12px;
+    font-weight: normal !important;
+    }
+    .form-control{
+    border: 1px solid #7070701C !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    }
+    .form-control:focus-visible{
+    border: 1px solid #7ED320 !important;
+    outline: none !important;
+    }
+    .form-control::placeholder{
+    font-family: Trueno Light;
+    font-size: 12px;
+    color: #C2C2C7 !important;   
+    }
+    .location_icon{
+    background-color: #7ED320;
+    position: relative;
+    margin-top: -34px;
+    float: right;
+    padding: 8px;
+    border-radius: 8px;
+    }
+    .radio_label{
+    font-family: Trueno Light;
+    font-size: 12px;
+    color: #C2C2C7 !important;
+    }
+    /* Radio button style */
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+    }
+    [type="radio"]:checked + label,
+    [type="radio"]:not(:checked) + label
+    {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+    }
+    [type="radio"]:checked + label:before,
+    [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+    }
+    [type="radio"]:checked + label:after,
+    [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: white;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    border: 3px solid #7ED320;
+    }
+    [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    }
+    [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* **************************************************************************************Blog css************************************ */
+
+    .Blog_banner_container{
+        min-height: 90vh;
+        background-image: "";
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .banner_head{
+        font-family: Trueno ExtraBold;
+    font-size: 40px; 
+    color: white;
+    }
+    .banner_head span{
+        font-family: Trueno ExtraBold; 
+    }
+    .banner_subhead{
+        
+        font-size: 20px; 
+        color: white; 
+    }
+    .searchBox_div{
+        justify-content: flex-end;
+    }
+    .search_box{
+      height: 50px;
+      border-radius: 30px;
+      width: 300px;
+      border: 1px solid grey;
+      background-image: ;
+      background-color: transparent;
+    }
+    .search_box::placeholder{
+        font-family: Trueno Light; 
+        font-size: 15px;
+        color: black;
+        text-align: center;
+    }
+
+
+
+
+    a{
+        text-decoration: none;
+      }
+      .text-info {
+          color: #31708f;
+      }
+      .physicianList ul{margin: 0; padding: 0; list-style: none;}
+      .physicianList ul li{display: inline-block; width: 240px; float: left; margin-right: 15px; margin-bottom: 15px;}
+      .physicianBox{
+          border: 1px solid #ddd;
+          color: #333;
+          margin-bottom: 20px;
+          position: relative;
+          padding-bottom: 20px;
+          background-color: #f5f5f5;
+          
+      }
+      .physicianBox .physicianPic {
+          padding: 15px 0;
+          background-color: #fff;
+        text-align: center;
+      }
+      .physicianBox .physicianPic img{
+          border: 6px solid #f8f8f8;
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+          transition: all 0.3s ease 0s;
+          margin: 0 auto;
+          height: 120px;
+          width: 120px;
+      }
+      .physicianInfo{
+          padding: 10px;
+          text-align: center;
+          border-top: 1px solid #eee;
+      }
+      .physicianInfo h6{font-size: 16px; margin:0;}
+      .physicianBox strong{color: #444;}
+      .physicianBox p{font-size: 13px; margin: 0; line-height: 22px;}
+      .physicianBio{position:absolute; right: 0; bottom: 3px;}
+      .physicianModal{text-align: center;}
+      .physicianModal .physicianPic img {
+          border: 6px solid #f8f8f8;
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+          transition: all 0.3s ease 0s;
+          margin: 0 auto;
+          height: 180px;
+          width: 180px;
+      }
+      .physicianModal .info p, .physicianModal .info .text-info{margin: 0;}
+      .showBioBtn{background-color: #337ab7; padding: 5px 10px; color: #fff; font-size: 12px;}
+      
+      /*Pagination CSS*/
+      #page_navigation {
+        clear:both;
+        margin: 20px 0;
+      }
+      #page_navigation a{
+          padding:3px 6px;
+          border:1px solid #2e6da4;
+          margin:2px;
+          color:black;
+          text-decoration:none
+      }
+      .active_page{
+          background:#337ab7;
+          color:white !important;
+      }
